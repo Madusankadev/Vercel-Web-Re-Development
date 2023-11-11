@@ -655,3 +655,22 @@ new style */
     width: 70%;
   }
 }
+
+.hero {
+  border: var(--line);
+}
+
+.hero h1 {
+  font-size: 6rem;
+  font-weight: 600;
+  letter-spacing: -5px;
+  text-align: center;
+  z-index: 1;
+  margin-top: -30px;
+}
+
+.heroBottom {
+  z-index: 0;
+  margin-top: -30px;
+  margin-bottom: -10px;
+}
